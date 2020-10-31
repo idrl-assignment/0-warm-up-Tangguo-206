@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def generate_random_matrix(m, n):
     random_matrix = np.random.randint(0, 2, (m, n))  # 使用numpy库函数
-    return random_matrix 
+    return random_matrix
 
 
 def save_matrix(matrix, file_name):
